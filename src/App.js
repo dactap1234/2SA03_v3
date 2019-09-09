@@ -55,7 +55,7 @@ class App extends React.Component {
             />
           ))
         }
-        <div>Answer{this.state.attempt}</div>
+        <div align="center">Answer{this.state.attempt}</div>
         {
           this.state.completed && <h4>Galaxy Complete</h4>
         }
